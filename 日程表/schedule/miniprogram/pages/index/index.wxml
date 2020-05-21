@@ -1,0 +1,15 @@
+<!--index.wxml-->
+<view class="container">
+<view class="schedules">
+  <block wx:for="{{schedules}}" wx:key="id" wx:for-index="idx" wx:for-item="schedule">
+    <view class="schedule">
+      <view class='schedule-info'>
+          <view class="date">{{schedule.date}}</view>
+          <view class="content">{{schedule.content}}</view>
+      </view>
+    </view>
+  </block>
+  <view style="clear: both"></view>
+</view>
+
+</view>

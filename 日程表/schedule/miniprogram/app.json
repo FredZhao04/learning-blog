@@ -1,0 +1,31 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/schedule/index",
+    "pages/user/user"
+    
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "position": "top",
+    "selectedColor": "#fdc21c",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "日程"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "text": "用户"
+      }
+    ]
+  },
+  "cloud": true,
+  "disableScroll": true,
+  "sitemapLocation": "sitemap27.json"
+}

@@ -1,0 +1,30 @@
+/**index.wxss**/
+page {
+  background: #F2F2F2
+}
+
+.schedules {
+  background: #ffffff;
+}
+
+.schedules .schedule {
+  margin-bottom: 5rpx; 
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+  box-shadow: 0 2px 5px #eeeeee;
+}
+
+.schedules .schedule .schedule-info {
+  margin-left: 50rpx;
+  margin-right: 10rpx;
+}
+
+.schedules .schedule .schedule-info .date {
+  font-size: 35rpx;
+}
+
+.schedules .schedule .schedule-info .content {
+  font-size: 40rpx;
+}
+
+

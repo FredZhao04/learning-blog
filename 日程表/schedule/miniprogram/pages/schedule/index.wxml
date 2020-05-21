@@ -1,0 +1,12 @@
+<!--miniprogram/pages/schedule/index.wxml-->
+
+<van-cell-group>
+  <van-field
+    value="{{ value }}"
+    placeholder="请输入日程"
+    border="{{ true }}"
+    bind:change="inputSchedule"
+  />
+</van-cell-group>
+
+<button bindtap="submit" class='btn'>发布</button>
