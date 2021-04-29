@@ -9,7 +9,7 @@ import os
   批量合并资产负债表
 '''
 root = tk.Tk()
-root.title("批量合并资产夫差表小工具-V1.0.0")
+root.title("批量合并资产负债表工具-V1.0.0")
 root.geometry('800x400')
 
 
