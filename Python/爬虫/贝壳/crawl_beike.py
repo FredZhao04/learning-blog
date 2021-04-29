@@ -5,7 +5,7 @@ import time
 import random
 
 #'jinjiang', 'qingyang','wuhou', 'chenghua', 'jinniu', 'tianfuxinqu',
-districts = ['gaoxin7']
+districts = ['qingyang']
 
 #在此爬取楼盘前100页数据
 for district in districts:
@@ -15,7 +15,7 @@ for district in districts:
       headers = {
       "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36"
       }
-      url = ("https://cd.ke.com/ershoufang/{}/pg{}co32/").format(district, i)
+      url = ("https://wh.ke.com/ershoufang/{}/pg{}co32/").format(district, i)
       r_obj = requests.get(url, headers)
       #打印请求网页状态
       print(r_obj.status_code)

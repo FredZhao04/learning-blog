@@ -3,8 +3,8 @@ import pandas as pd
 pd.set_option('display.max_columns',1000)
 pd.set_option('display.width', 1000)
 pd.set_option('display.max_colwidth',1000)
-# 'jinjiang', 'qingyang',  'jinniu', 'tianfuxinqu', 'gaoxin7'
-districts = ['wuhou', 'chenghua']
+
+districts = ['qingyang']
 for district in districts:
 
     df = pd.read_csv("data/{}_beike.csv".format(district))
